@@ -1,0 +1,424 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "speech me",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit speech me",
+                        "quit out of speech me",
+                        "get out",
+                        "quit",
+                        "exit",
+                        "bye",
+                        "good bye"
+                    ]
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RandomExerciseIntent",
+                    "slots": [],
+                    "samples": [
+                        "random exercise",
+                        "give me an exercise",
+                        "give me a random exercise",
+                        "exercise",
+                        "exercises",
+                        "speech exercise"
+                    ]
+                },
+                {
+                    "name": "NewSpeechIntent",
+                    "slots": [],
+                    "samples": [
+                        "Speech structure",
+                        "I want to write a speech",
+                        "Speech help",
+                        "Structure my speech",
+                        "Help me with my structure",
+                        "Format my Speech",
+                        "New speech"
+                    ]
+                },
+                {
+                    "name": "RandomTopicIntent",
+                    "slots": [],
+                    "samples": [
+                        "topic",
+                        "I would like a speech topic",
+                        "Can you give me a speech topic",
+                        "I'd like to give an impromptu speech.",
+                        "impromptu speech",
+                        "impromptu topic",
+                        "random topic",
+                        "speech topic",
+                        "give me a speech topic",
+                        "give me a random speech topic"
+                    ]
+                },
+                {
+                    "name": "RandomTongueTwisterIntent",
+                    "slots": [],
+                    "samples": [
+                        "tongue twister",
+                        "random tongue twister",
+                        "I want a tongue twister",
+                        "give me a random tongue twister",
+                        "give me a tongue twister",
+                        "twist me"
+                    ]
+                },
+                {
+                    "name": "TimeSpeechIntent",
+                    "slots": [
+                        {
+                            "name": "Time",
+                            "type": "LIST_OF_TIMES",
+                            "samples": [
+                                "{Time} minute",
+                                "{Time}",
+                                "{Time} minutes"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "time my speech for {Time} minutes",
+                        "{Time} minutes",
+                        "{Time} minutes please",
+                        "time for {Time}",
+                        "Time me for {Time} minutes",
+                        "{Time}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_EXERCISES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Focus on your posture"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Speak from your gut"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Go through the motions"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sit Silently for 3 minutes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Impromptu Speech"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tongue Twisters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Speed Read for 1 minute"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Breathe slowly for 1 minute"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_COMMANDS",
+                    "values": [
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "Speech Practice"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "Timer"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "Exerices"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_TOPICS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "The media controls how and what we think."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Does money make the world go round?"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Color affects the way people feel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peace is possible"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Art is essential to life"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Being young is over-rated"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Laughter is the best medicine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Intelligence is not enough"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Plants have feelings too"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_TIMES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ten",
+                                "synonyms": [
+                                    "ten"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nine",
+                                "synonyms": [
+                                    "nine"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eight",
+                                "synonyms": [
+                                    "eight"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seven",
+                                "synonyms": [
+                                    "seven"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "six",
+                                "synonyms": [
+                                    "six"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "five",
+                                "synonyms": [
+                                    "five"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "four",
+                                "synonyms": [
+                                    "four"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "three",
+                                "synonyms": [
+                                    "three"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two",
+                                "synonyms": [
+                                    "two"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "one",
+                                "synonyms": [
+                                    "a",
+                                    "one"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "TimeSpeechIntent",
+                    "delegationStrategy": "ALWAYS",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Time",
+                            "type": "LIST_OF_TIMES",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.94417954478.1385206225960"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.842233560353.484322405537.1156162979537"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Slot.Validation.842233560353.484322405537.1156162979537",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "gimme good stuff"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.94417954478.1385206225960",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "give me your time limit"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "how long do you want?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "How long do you want me to time you for?"
+                    }
+                ]
+            }
+        ]
+    }
+}
